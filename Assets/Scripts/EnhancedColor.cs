@@ -18,6 +18,8 @@ public class EnhancedColor : MonoBehaviour {
 	[Range(0,255)]
 	public int OutWhite = 255;
 
+	public bool ShowBeforeAndAfterEffect;
+
 	Material mat;
 
 	void Awake() {
@@ -31,6 +33,7 @@ public class EnhancedColor : MonoBehaviour {
 		mat.SetFloat("_InWhite", Highlights);
 		mat.SetFloat("_OutWhite", OutWhite);
 		mat.SetFloat("_OutBlack", OutBlack);
+		mat.SetFloat("_ShowBeforeXThreshold", ShowBeforeAndAfterEffect?0.5f:0.0f);
 
 		Graphics.Blit(src, dest, mat);
 	}
