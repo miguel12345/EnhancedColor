@@ -4,7 +4,7 @@
 Hi there, this is just a simple project where I try some fun things with Unity Image effects
 
 
-## Levels
+## Color Levels
 
 
 ### Gimp
@@ -20,3 +20,12 @@ Hi there, this is just a simple project where I try some fun things with Unity I
 #### Before and after
 
 ![](http://i.giphy.com/l46CcJbkMCJU7NuGQ.gif)
+
+
+## Color Curves
+
+![](http://i.giphy.com/26BRIUICOCjKufsd2.gif)
+
+### Baked Look-Up-Textures for better performance
+
+![](http://i.giphy.com/d3MKfCemsMZYsOoE.gif)

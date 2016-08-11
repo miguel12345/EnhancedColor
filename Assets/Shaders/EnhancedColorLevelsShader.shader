@@ -1,4 +1,4 @@
-﻿Shader "Custom/EnhancedColorShader"
+﻿Shader "Custom/EnhancedColorLevelsShader"
 {
 	Properties
 	{

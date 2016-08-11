@@ -3,7 +3,7 @@ using System.Collections;
 
 [RequireComponent(typeof(Camera))]
 [ExecuteInEditMode]
-public class EnhancedColor : MonoBehaviour {
+public class EnhancedColorLevels : MonoBehaviour {
 
 	[Header("Input Levels")]
 	[Range(0,255)]
@@ -23,7 +23,7 @@ public class EnhancedColor : MonoBehaviour {
 	Material mat;
 
 	void Awake() {
-		mat = new Material (Shader.Find("Custom/EnhancedColorShader"));
+		mat = new Material (Shader.Find("Custom/EnhancedColorLevelsShader"));
 	}
 
 	void OnRenderImage(RenderTexture src, RenderTexture dest) {
